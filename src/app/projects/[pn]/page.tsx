@@ -123,8 +123,6 @@ export default function ProjectPage() {
             <p className="text-gray-700 text-md">{project.overview}</p>
           </section>
         )}
-
-        {/** 
         {Array.isArray(project?.features) && (
           <section aria-labelledby="features-heading" className="space-y-4">
             <h2 id="features-heading" className="text-xl font-semibold">
@@ -143,7 +141,6 @@ export default function ProjectPage() {
             ))}
           </section>
         )}
-        */}
       </div>
     </main>
   );
